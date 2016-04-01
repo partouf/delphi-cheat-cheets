@@ -1,6 +1,6 @@
 # Variable Initialization in Delphi
 
-* Global scope variables - guaranteed 0
+* Global scope variables - guaranteed 0 *(both interface and implementation globals)*
 * Object scope variables - guaranteed 0
 * Function scope variables - undefined
 * Function Result variable - undefined *(defined 0 by caller's scope, but recycled, thus effectively undefined)*
